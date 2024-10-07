@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 10vw;
+}
+
+/* h2{
+    font-size: 2vw;
+} */
+
+.header {
+    background-color: #fff;
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#hero-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--espacements-24, 24px);
+    background: var(--Gray-scale-200, #DBE6EA);
+}
+
+.banner-content {
+    background: var(--Gray-scale-200, #DBE6EA);
+    /* width: 98%; */
+    display: flex;
+    padding: 48px 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 128px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.menu li {
+    list-style: none;
+    display: flex;
+    padding: 8px var(--espacements-24, 24px);
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li a {
+    color: var(--Gray-scale-700, #6B7F94);
+    text-align: center;
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: var(--Gray-scale-950, #2C333A);
+    animation-timing-function: ease-out;
+    animation-duration: 400ms;
+
+}
+
+.contact-btn {
+    border: 1px solid var(--Gray-scale-500, #96AEBE);
+}
+
+.contact-btn:hover {
+    border: 1px solid var(--Gray-scale-500, #2C333A);
+}
+
+.heading-1 {
+    color: var(--Black, #070707);
+    font-weight: 400;
+    line-height: 84%;
+    letter-spacing: -2.88px;
+}
+
+.about-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+
+.about-content h2 {
+    color: var(--Gray-scale-950, #2C333A);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.scroll-down-btn {
+    display: flex;
+    padding: 4px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.scroll-down-btn a {
+    text-decoration: none;
+    color: var(--Black, #070707);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.scroll-down-btn i {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/* MY WORKS SECTION START */
+
+.my-works {
+    background-color: #DBE6EA;
+}
+
+.projects-content {
+    display: flex;
+    width: 100%;
+    padding-bottom: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-img>img {
+    width: 100vw;
+    height: 648px;
+    /* height: auto; */
+    align-self: stretch;
+}
+
+.project1,
+.project2,
+.project3,
+.project4 {
+    padding-bottom: 48px;
+}
+
+.project-details {
+    display: flex;
+    padding: 8px 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--espacements-24, 24px);
+}
+
+.project-name {
+    display: inline-flex;
+    padding: 8px 0px;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s all ease-out;
+}
+
+.project-name:hover {
+    border-bottom: 1px solid var(--White, #FFF);
+}
+
+.project-name h2 {
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.project-name i {
+    width: 48px;
+    height: 48px;
+}
+
+
+.about-project h2 {
+    color: var(--Gray-scale-500, #96AEBE);
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+/* MY WORKS SECTION END */
+
+.footer-content {
+    background: var(--Gray-scale-200, #DBE6EA);
+    display: flex;
+    padding: 80px 120px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    align-self: stretch;
+}
+
+.footer-heading-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--espacements-24, 24px);
+    align-self: stretch;
+}
+
+.footer-heading-content h2 {
+    color: var(--Black, #070707);
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+/* .footer-heading-content .GIT-btn {
+    display: flex;
+    padding: 12px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+} */
+
+.footer-heading-content .GIT-btn a {
+    color: var(--Black, #070707);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 100%;
+    text-decoration: none;
+    gap: 12px;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s all ease-out;
+}
+
+.footer-heading-content .GIT-btn a:hover {
+    border-bottom: 2px solid #070707;
+}
+
+.footer-heading-content .GIT-btn a i {
+    width: 80px;
+    height: 80px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.right-side-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.follow-links {
+    display: flex;
+    width: 158px;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.follow-links h5 {
+    color: var(--Gray-scale-950, #2C333A);
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.follow-links h6 {
+    color: var(--Black, #070707);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.follow-links h6 a {
+    color: var(--Black, #070707);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    /* transition: 0.2s all ease-out; */
+}
+
+.link-border {
+    transition: all 1s ease;
+    text-decoration: 1px solid #DBE6EA;
+}
+
+.follow-links .link-border :hover {
+    border-bottom: 1px solid #000;
+    text-decoration: 1px solid #DBE6EA;
+}
+
+.left-side-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+
+.left-side-content {
+    width: fit-content;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+    gap: 40px;
+}
