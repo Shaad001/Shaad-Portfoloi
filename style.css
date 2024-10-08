@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: calc(3vw - 3.2px);
+    font-size: calc(3vw - 1.2px);
     font-weight: 400;
     line-height: 120%;
 }
@@ -88,6 +88,7 @@ h2 {
     justify-content: space-between;
     padding: 48px 80px;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-end;
     gap: 80px;
 }
@@ -133,7 +134,7 @@ h2 {
 .scroll-down-btn a {
     width: max-content;
     color: var(--Black, #070707);
-    font-size: calc(2vw + 1.2px);
+    font-size: 32px;
     font-weight: 400;
     text-decoration: none;
     line-height: 24px;
