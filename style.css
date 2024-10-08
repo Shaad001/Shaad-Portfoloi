@@ -144,14 +144,16 @@ h1 {
     align-items: flex-start;
 }
 
-.project-img{
+.project-img {
     width: 100%;
 }
+
 .project-img>img {
     width: 100%;
     height: 520px;
     align-self: stretch;
 }
+
 .project-img>video {
     width: 100%;
     height: 648px;
@@ -347,4 +349,320 @@ h1 {
     align-items: flex-end;
     align-self: stretch;
     gap: 40px;
+}
+
+
+
+
+
+
+/* ABOUT-BANNER PAGE START */
+
+
+#herobg {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.about-page {
+    background-color: #fff;
+}
+
+.my-img {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    margin-top: -120px;
+    /*background-image: url(./Images/tim-bogdanov-4uojMEdcwI8-unsplash.jpg);
+     background-color: #04071D; 
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;*/
+    /* background-position-y: bottom; */
+}
+
+
+/* ABOUT-BANNER PAGE END */
+
+.experience {
+    background-color: #EBF2F4;
+    display: flex;
+    padding: 64px 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.experience h2 {
+    color: var(--Gray-scale-950, #2C333A);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.experiences-info {
+    display: flex;
+    width: 820px;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 1px solid #ACC2CD; */
+}
+
+.card-border {
+    background: linear-gradient(90deg, #ACC2CD 0%, #566167 49.57%, #ACC2CD 99.68%);
+    width: 820px;
+    height: 1px;
+}
+
+.my-position {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.my-position h4 {
+    color: var(--Gray-scale-900, #4C5863);
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.my-position li {
+    list-style: disc;
+    color: var(--Gray-scale-900, #4C5863);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.experience-year p {
+    color: var(--Gray-scale-900, #4C5863);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+/* DESINING-SKILLS SECTION START */
+
+
+.heading-border {
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(90deg, #ACC2CD 0%, #566167 49.57%, #ACC2CD 99.68%);
+}
+
+/* .desining-skills h2 {
+    width: 100%;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(90deg, #ACC2CD 0%, #566167 49.57%, #ACC2CD 99.68%);
+    border-image-slice: 1;
+    padding-bottom: 16px;
+} */
+
+.card-content {
+    display: flex;
+    /* padding: 0px 48px; */
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+}
+
+.desining-skills {
+    display: flex;
+    padding: 64px 120px;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.skills-cards-row-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.skills-cards-row-2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.card-1 {
+    background: var(--Complementary-purple-200, #F5D4FA);
+}
+
+.card-2 {
+    background: var(--Primary-blue-200, #B5ECFF);
+}
+
+.card-3 {
+    background: var(--Complementary-green-200, #B6FDB5);
+}
+
+.card-4 {
+    background: var(--Complementary-brown-200, #FFF889);
+}
+
+.card-5 {
+    background: var(--Gray-scale-200, #DBE6EA);
+}
+
+.skill-card {
+    border-radius: 12px;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.skill-card li {
+    color: #4C5863;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/* DESINING-SKILLS SECTION END */
+
+
+
+/* DESINING TOOLS SECTION START */
+
+.desining-tools {
+    background-color: #EBF2F4;
+    display: flex;
+    padding: 64px 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.tool-cards {
+    display: flex;
+    padding: 20px 120px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.tool-names {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* DESINING TOOLS SECTION END */
+
+
+
+/* MY HOBBIES SECTION START */
+
+.my-hobbies {
+    display: flex;
+    padding: 64px 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.hobbies-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.my-hobbies h3 {
+    color: var(--Black, #070707);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.text-content h5 {
+    color: var(--Gray-scale-950, #2C333A);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.text-content h5 a {
+    color: #0861C5;
+    text-decoration: none;
+}
+
+.hobbies-names p {
+    color: var(--Gray-scale-900, #4C5863);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.hobbies-names {
+    display: flex;
+    align-items: cneter;
+    gap: 12px;
+}
+
+.hobbies-names i>svg {
+    width: 32px;
+    height: 32px;
+}
+
+/* MY HOBBIES SECTION END */
+
+
+
+
+
+/* EXPERIMENTS-PAGE  CSS START */
+
+
+.experiment-banner {
+    background: var(--Gray-scale-200, #DBE6EA);
+    display: block;
+}
+
+.experiment-content {
+    padding: 80px 0px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--espacements-24, 24px);
+}
+
+.experiment-content h2 {
+    color: var(--Gray-scale-950, #2C333A);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.experiment-content h4 {
+    color: var(--Gray-scale-900, #4C5863);
+    font-family: Outfit;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 120%;
 }
