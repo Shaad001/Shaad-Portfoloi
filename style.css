@@ -301,7 +301,7 @@ h2 {
 .right-side-content {
     display: flex;
     align-items: flex-start;
-    gap: 24px;
+    gap: 48px;
 }
 
 .follow-links {
