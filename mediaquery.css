@@ -80,7 +80,7 @@
     }
 
     .right-side-content {
-        gap: 28px;
+        /* gap: 28px; */
         flex-wrap: wrap;
         justify-content: space-between;
     }
