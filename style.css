@@ -30,6 +30,11 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
+.left-side-nav{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
 
 .menu {
     display: flex;
@@ -155,7 +160,7 @@ h2 {
 }
 
 .projects-content {
-    padding: 0px 80px;
+    padding: 24px 80px;
     display: flex;
     /* width: 100%; */
     flex-direction: column;
@@ -282,8 +287,8 @@ h2 {
 }
 
 .footer-heading-content .GIT-btn a i {
-    width: 80px;
-    height: 80px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .footer-links {
@@ -301,7 +306,7 @@ h2 {
 
 .follow-links {
     display: flex;
-    width: 158px;
+    width: fit-content;
     height: fit-content;
     flex-direction: column;
     justify-content: space-between;

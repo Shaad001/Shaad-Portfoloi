@@ -1,24 +1,108 @@
 @media only screen and (max-width:768px) {
-    h2{
+    .heading-1 {
+        letter-spacing: -1.5px;
+    }
+
+    h2 {
         width: 100%;
         font-size: 20px;
     }
+
     .header {
         padding: 8px 16px;
+    }
+
+    .logo svg {
+        width: 40px;
+        height: 40px;
     }
 
     .navigation-bar {
         display: none;
     }
-    .banner-content{
-        width: 100%;
+
+    .banner-content {
+        /* width: 100%; */
         padding: 48px 20px;
     }
-    .about-content{
+
+    .about-content {
         width: 80%;
         gap: 24px;
     }
-    .scroll-down-btn a{
-        font-family: 20px;
+
+    .scroll-down-btn a {
+        font-size: 20px;
+    }
+
+    .projects-content {
+        padding: 20px;
+    }
+
+    .projects-content img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .projects-content video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .project-name i {
+        width: 24px;
+        height: 24px;
+    }
+
+    .project-name i svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-content {
+        padding: 20px;
+    }
+
+    .GIT-btn i {
+        width: 24px;
+        height: 24px;
+    }
+
+    .GIT-btn i svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .right-side-content {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-links h5 {
+        font-size: 14px;
+        font-weight: 300;
+        width: fit-content;
+    }
+
+    .footer-links h6 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .footer-links h6 a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .left-side-content {
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
     }
 }
